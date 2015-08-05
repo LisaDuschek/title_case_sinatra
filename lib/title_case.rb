@@ -1,6 +1,6 @@
 
 class String
-  articles = ['the', 'a', 'an', 'of']
+  articles = ['the', 'a', 'an', 'of','and']
 
   define_method(:title_case) do
     split_sentence = self.split
